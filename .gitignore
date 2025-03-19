@@ -1,0 +1,18 @@
+# Binárisok és build fájlok
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# IDE fájlok
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logok és ideiglenes fájlok
+*.log
+
