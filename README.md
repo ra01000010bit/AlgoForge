@@ -1,37 +1,67 @@
-# Programozási Tételek Projekt
+# Programozási Tételek Projekt | Algorithm Practice Project
 
-Ez a projekt különböző programozási tételek megvalósítására épül. Célom, hogy jobban megértsem a különböző algoritmusokat, és gyakorlati alkalmazásukkal mélyítsem el tudásomat a programozás terén.
+[English](#english) | [Magyar](#magyar)
 
-### Cél:
-A programozási tételek megértése és alkalmazása, interaktív játékokon és gyakorlófeladatokon keresztül.
+---
 
-## Egyszerű Programozási Tételek
-- [x] **Sorszámítás**: Az adatok sorba rendezése és feldolgozása.
-- [x] **Eldöntés**: Különböző döntési logikák alkalmazása, például if-else szerkezetek.
-- **Kiválasztás**: A legjobb vagy legrosszabb elem kiválasztása egy halmazból.
-- [x] **Lineáris keresés**: Adatok keresése egy egyszerű, sorozatos módon.
-- [x] **Megszámlálás**: Az egyes elemek előfordulásának megszámolása.
-- **Maximum kiválasztás**: A legnagyobb értékek megtalálása egy listában.
+## 📌 English Version <a name="english"></a>
 
-## Összetett Programozási Tételek
-- **Másolás**: A tartalom másolása egyik helyről a másikra.
-- **Kiválogatás**: Szűrés és válogatás különböző feltételek szerint.
-- **Szétválogatás**: Az adatok különböző kategóriákba történő szétválasztása.
-- **Metszet**: Két halmaz közös elemeinek megtalálása.
-- **Unió**: Két halmaz egyesítése.
-- **Összefuttatás**: Két adatfolyam összeolvasztása.
+### Algorithm Practice Project  
 
-## Programozási Tételek Összeépítése
-A projekt célja, hogy az egyszerűbb tételeket összekapcsolva komplexebb algoritmusokat és problémákat oldjunk meg. Például:
-- A **lineáris keresés** és **sorszámítás** kombinálása lehetőséget biztosít arra, hogy hatékonyabb adatfeldolgozási folyamatokat hozzunk létre.
-- A **kiválogatás** és **szétválogatás** alkalmazásával olyan rendszereket fejleszthetünk, amelyek képesek adatok szűrésére és rendezésére.
+This project focuses on implementing various algorithmic techniques to deepen my understanding of fundamental programming concepts.  
 
-## Fejlesztés és Tanulás
-- **Flashcards**: A programozási tételek elsajátításában segíthetnek a flashcardok, amelyek kérdéseket és válaszokat tartalmaznak az egyes algoritmusokkal kapcsolatban.
-- **Interaktív Játékok**: A projekt tartalmaz interaktív CLI alapú játékokat, amelyek segítenek gyakorolni a programozási tételek alkalmazását és megértését.
-  - Feladatok: A felhasználónak sorba kell állítania a pszeudokódot, vagy kiegészítenie a hiányzó részeket.
+### 📌 Goal  
+The main objective is to understand and apply algorithmic principles through interactive exercises and games.  
 
-## Jövőbeli Fejlesztések
-- **Automatikus tesztelés**: Tesztesetek és automatizált ellenőrzések a kódok helyes működésének biztosításához.
-- **Webes változat**: A jövőben lehetőség lesz webes felületen is gyakorolni, ahol különböző szintű feladatokat oldhatsz meg interaktívan.
-- **Eredménykövetés és Gamifikáció**: A felhasználók szintet léphetnek és különböző jutalmakat kaphatnak, ahogy haladnak a feladatokban.
+### 🔹 Basic Algorithms
+- **Summation**: Processing and arranging data.  
+- **Decision Making**: Applying various decision-making logic, e.g., if-else structures.  
+- **Selection**: Finding the best or worst element in a set.  
+- **Linear Search**: Searching data sequentially.  
+- **Counting**: Counting occurrences of elements.  
+- **Finding Maximum**: Identifying the largest value in a list.  
+
+### 🔹 Advanced Algorithms
+- **Copying**: Duplicating content.  
+- **Filtering**: Selecting data based on conditions.  
+- **Partitioning**: Splitting data into categories.  
+- **Intersection**: Finding common elements between sets.  
+- **Union**: Merging two sets.  
+- **Merging**: Combining two data streams.  
+
+### 🚀 Future Enhancements
+- Automated testing  
+- Web-based version  
+- Progress tracking & gamification  
+
+---
+
+## 📌 Magyar Verzió <a name="magyar"></a>
+
+### Programozási Tételek Projekt  
+
+Ez a projekt különböző algoritmikus technikák megvalósítását célozza, hogy mélyítsem a programozási ismereteimet.  
+
+### 📌 Cél  
+A célom, hogy interaktív feladatok és játékok segítségével megértsem és alkalmazzam a programozási tételeket.  
+
+### 🔹 Egyszerű Programozási Tételek
+- **Sorszámítás**: Az adatok sorba rendezése és feldolgozása.  
+- **Eldöntés**: Döntési logikák alkalmazása, például if-else szerkezetek.  
+- **Kiválasztás**: A legjobb vagy legrosszabb elem kiválasztása egy halmazból.  
+- **Lineáris keresés**: Adatok keresése sorozatos módon.  
+- **Megszámlálás**: Az egyes elemek előfordulásának megszámolása.  
+- **Maximum kiválasztás**: A legnagyobb értékek megtalálása egy listában.  
+
+### 🔹 Összetett Programozási Tételek
+- **Másolás**: Tartalom másolása egyik helyről a másikra.  
+- **Kiválogatás**: Adatok szűrése feltételek szerint.  
+- **Szétválogatás**: Adatok különböző kategóriákba rendezése.  
+- **Metszet**: Két halmaz közös elemeinek megtalálása.  
+- **Unió**: Két halmaz egyesítése.  
+- **Összefuttatás**: Két adatfolyam összeolvasztása.  
+
+### 🚀 Jövőbeli Fejlesztések
+- Automatikus tesztelés  
+- Webes változat  
+- Eredménykövetés & Gamifikáció  
