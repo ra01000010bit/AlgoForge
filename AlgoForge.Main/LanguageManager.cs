@@ -11,7 +11,7 @@ namespace AlgoForge.AlgoForge.Main
     internal class LanguageManager
     {
         private ResourceManager resourceManager;
-
+        
         public void SelectLanguage()
         {
             Console.WriteLine("Choose language / Válasszon nyelvet:");
@@ -40,7 +40,7 @@ namespace AlgoForge.AlgoForge.Main
 
         public string GetMessage(string key)
         {
-            return resourceManager.GetString(key);
+            return resourceManager.GetString(key) ?? "Message not found!";
         }
     }
 }
