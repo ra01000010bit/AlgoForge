@@ -6,7 +6,7 @@ using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgoForge.AlgoForge.Main
+namespace AlgoForge.AlgoForge.Core.Localization
 {
     internal class LanguageManager
     {

@@ -29,9 +29,6 @@ namespace AlgoForge.AlgoForge.Core.Menus
             {
                 Console.Write("Enter your choice (1-3): ");
                 string input = Console.ReadLine();
-
-                try
-                {
                     
                     if (!int.TryParse(input, out mainAnswer) || mainAnswer < 1 || mainAnswer > 3)
                     {
@@ -41,12 +38,6 @@ namespace AlgoForge.AlgoForge.Core.Menus
 
                     // Ha a bemenet érvényes
                     break;
-                }
-                catch (InvalidInputException ex)
-                {
-                    
-                    Console.WriteLine(languageManager.GetMessage("InvalidInput"));
-                }
             }
         }
     }
