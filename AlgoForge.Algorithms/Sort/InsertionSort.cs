@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgoForge.AlgoForge.Algorithms.Short
 {
-    internal class InsertionShort
+    internal class InsertionSort
     {
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AlgoForge.AlgoForge.Core.Interfaces
 {
-    internal class IMenu
+    public interface IMenu
     {
+        void ShowMenu();
     }
 }

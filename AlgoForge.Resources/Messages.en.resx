@@ -117,22 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Hello" xml:space="preserve">
-    <value>Hello</value>
+  <data name="Counting" xml:space="preserve">
+    <value>Coutnig</value>
   </data>
-  <data name="MenuPrompt" xml:space="preserve">
-    <value>Please choose from the following menu options:</value>
+  <data name="Decision" xml:space="preserve">
+    <value>Decision algorithm</value>
   </data>
-  <data name="SimpleProgTasks" xml:space="preserve">
-    <value>1. Simple programming tasks.</value>
+  <data name="Greeting" xml:space="preserve">
+    <value />
   </data>
-  <data name="Option2" xml:space="preserve">
-    <value>2. Complex programming tasks.</value>
+  <data name="LinearSearch" xml:space="preserve">
+    <value>Linear search</value>
   </data>
-  <data name="Option3" xml:space="preserve">
-    <value>3. Combining programming tasks.</value>
+  <data name="MaximumSelection" xml:space="preserve">
+    <value>Maximum slection</value>
   </data>
-  <data name="InvalidInput" xml:space="preserve">
-    <value>Invalid input. Please enter a number between 1 and 3.</value>
+  <data name="Selection" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="SimpleAlgorithms" xml:space="preserve">
+    <value>Simple Programing algorithms</value>
+  </data>
+  <data name="Summation" xml:space="preserve">
+    <value>Summation</value>
   </data>
 </root>

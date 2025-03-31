@@ -117,22 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Hello" xml:space="preserve">
-    <value>Helló</value>
+  <data name="Counting" xml:space="preserve">
+    <value>Megszámlálás</value>
   </data>
-  <data name="MenuPrompt" xml:space="preserve">
-    <value>Kérlek válassza az alábbi menü pontok közül!</value>
+  <data name="Decision" xml:space="preserve">
+    <value>Eldöntés programozás tétel</value>
   </data>
-  <data name="SimpleProgTasks" xml:space="preserve">
-    <value>1. Egyszerű programozási tételek.</value>
+  <data name="Greeting" xml:space="preserve">
+    <value>Szia</value>
   </data>
-  <data name="Option2" xml:space="preserve">
-    <value>2. Összetett programozási tételek.</value>
+  <data name="LinearSearch" xml:space="preserve">
+    <value>Lineáris keresés</value>
   </data>
-  <data name="Option3" xml:space="preserve">
-    <value>3. Programozási tételek össze építése</value>
+  <data name="MaximumSelection" xml:space="preserve">
+    <value>Maxium kiválasztás programozás tétel</value>
   </data>
-  <data name="InvalidInput" xml:space="preserve">
-    <value>Érvénytelen bemenet. Kérjük, adjon meg egy számot 1 és 3 között.</value>
+  <data name="Selection" xml:space="preserve">
+    <value>Kiválasztás</value>
+  </data>
+  <data name="SimpleAlgorithms" xml:space="preserve">
+    <value>Egyszerű programozási tételek</value>
+  </data>
+  <data name="Summation" xml:space="preserve">
+    <value>Sorozatszámítás</value>
   </data>
 </root>

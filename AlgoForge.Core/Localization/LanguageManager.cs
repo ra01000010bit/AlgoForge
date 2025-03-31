@@ -1,34 +1,52 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
+using System.Reflection;
 using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AlgoForge.AlgoForge.Core.Localization
 {
     internal class LanguageManager
     {
+        private static LanguageManager instance;
         private ResourceManager resourceManager;
-        
+        private CultureInfo currentCulture;
+
+        private LanguageManager()
+        {
+            resourceManager = new ResourceManager("AlgoForge.Resources.Messages", Assembly.GetExecutingAssembly());
+            currentCulture = CultureInfo.InvariantCulture;
+        }
+
+        public static LanguageManager Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new LanguageManager();
+                }
+                return instance;
+            }
+        }
+
         public void SelectLanguage()
         {
             Console.WriteLine("Choose language / Válasszon nyelvet:");
             Console.WriteLine("1. English");
             Console.WriteLine("2. Magyar");
 
-            int languageChoice;
+            int choice;
             while (true)
             {
                 Console.Write("Enter your choice (1-2): ");
                 string input = Console.ReadLine();
 
-                if (int.TryParse(input, out languageChoice) && (languageChoice == 1 || languageChoice == 2))
+                if (int.TryParse(input, out choice) && (choice == 1 || choice == 2))
                 {
-                    string culture = languageChoice == 1 ? "en" : "hu";
-                    resourceManager = new ResourceManager("AlgoForge.Resources.Messages", typeof(LanguageManager).Assembly);
-                    CultureInfo.CurrentUICulture = new CultureInfo(culture);
+                    string culture = choice == 1 ? "en" : "hu";
+                    currentCulture = new CultureInfo(culture);
+                    CultureInfo.CurrentUICulture = currentCulture;
+                    Console.WriteLine($"Language set to: {currentCulture.DisplayName}");
                     break;
                 }
                 else
@@ -40,8 +58,19 @@ namespace AlgoForge.AlgoForge.Core.Localization
 
         public string GetMessage(string key)
         {
-            return resourceManager.GetString(key) ?? "Message not found!";
+            try
+            {
+                return resourceManager.GetString(key, currentCulture) ?? "Message not found!";
+            }
+            catch (MissingManifestResourceException)
+            {
+                Console.WriteLine("Resource file not found! Available resources:");
+                foreach (var resource in Assembly.GetExecutingAssembly().GetManifestResourceNames())
+                {
+                    Console.WriteLine(resource);
+                }
+                return "Resource file missing!";
+            }
         }
     }
 }
-

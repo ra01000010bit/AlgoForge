@@ -1,44 +1,29 @@
-﻿using AlgoForge.AlgoForge.Core.Exceptions;
-using AlgoForge.AlgoForge.Main;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace AlgoForge.AlgoForge.Core.Menus
 {
-    class MainMenu
+    public class MainMenu : BaseMenu
     {
-        public void Menu()
+        public override string Title => "Fo Menu";
+
+        public MainMenu()
         {
-            #region SetLanguage
-            LanguageManager languageManager = new LanguageManager();
-            languageManager.SelectLanguage();
-            Console.Clear();
-            #endregion
+            
+            MenuOptions.Add(1, ShowAlgorithmMenu);
+            MenuOptions.Add(2, ShowSortAlgorithmsMenu);
+        }
 
-            Console.WriteLine(languageManager.GetMessage("Hello"));
-            Console.WriteLine(languageManager.GetMessage("MenuPrompt"));
-            Console.WriteLine(languageManager.GetMessage("SimpleProgTasks"));
-            Console.WriteLine(languageManager.GetMessage("Option2"));
-            Console.WriteLine(languageManager.GetMessage("Option3"));
-            int mainAnswer;
-            while (true)
-            {
-                Console.Write("Enter your choice (1-3): ");
-                string input = Console.ReadLine();
-                    
-                    if (!int.TryParse(input, out mainAnswer) || mainAnswer < 1 || mainAnswer > 3)
-                    {
-                        
-                        throw new InvalidInputException("InvalidInput");
-                    }
-
-                    // Ha a bemenet érvényes
-                    break;
-            }
+        private void ShowAlgorithmMenu()
+        {
+            new SimpleAlgorithmMenu().ShowMenu();
+        }
+        private void ShowSortAlgorithmsMenu()
+        {
+            new SortAlgorithmsMenu().ShowMenu();
         }
     }
 }
