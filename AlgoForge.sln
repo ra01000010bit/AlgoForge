@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoForge", "AlgoForge.csproj", "{3A9A92B3-2AFC-4851-8660-FEA2401B2A94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoForge.Tests", "..\AlgoForge.Tests\AlgoForge.Tests.csproj", "{35241F22-F73B-4639-B195-804550C2CA56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3A9A92B3-2AFC-4851-8660-FEA2401B2A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9A92B3-2AFC-4851-8660-FEA2401B2A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9A92B3-2AFC-4851-8660-FEA2401B2A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35241F22-F73B-4639-B195-804550C2CA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35241F22-F73B-4639-B195-804550C2CA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35241F22-F73B-4639-B195-804550C2CA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35241F22-F73B-4639-B195-804550C2CA56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

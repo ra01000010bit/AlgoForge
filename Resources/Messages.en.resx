@@ -117,28 +117,70 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Bad choice" xml:space="preserve">
+    <value>Wrong answear, please try again!</value>
+  </data>
   <data name="Counting" xml:space="preserve">
-    <value>Megszámlálás</value>
+    <value>Coutnig</value>
   </data>
   <data name="Decision" xml:space="preserve">
-    <value>Eldöntés programozás tétel</value>
+    <value>Decision</value>
   </data>
   <data name="Greeting" xml:space="preserve">
-    <value>Szia</value>
+    <value>Hello</value>
   </data>
   <data name="LinearSearch" xml:space="preserve">
-    <value>Lineáris keresés</value>
+    <value>Linear search</value>
   </data>
   <data name="MaximumSelection" xml:space="preserve">
-    <value>Maxium kiválasztás programozás tétel</value>
+    <value>Maximum slection</value>
+  </data>
+  <data name="ProgramingAlgorithms" xml:space="preserve">
+    <value>Programing Algorithms</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="RunSelectionSortAlgorithm" xml:space="preserve">
+    <value>Kiválasztásos rendezés</value>
+  </data>
+  <data name="RunSelectionAlgorithm" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="RunSummationAlgorithm" xml:space="preserve">
+    <value>Summation Algorithm</value>
   </data>
   <data name="Selection" xml:space="preserve">
-    <value>Kiválasztás</value>
+    <value>Selection</value>
+  </data>
+  <data name="ShowAlgorithmMenu" xml:space="preserve">
+    <value>Algorithm Menu</value>
+  </data>
+  <data name="ShowSortAlgorithmsMenu" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="Simple Programing Algorithms" xml:space="preserve">
+    <value>Simple Programing Algorithhms</value>
   </data>
   <data name="SimpleAlgorithms" xml:space="preserve">
-    <value>Egyszerű programozási tételek</value>
+    <value>Simple Programing algorithms</value>
   </data>
   <data name="Summation" xml:space="preserve">
-    <value>Sorozatszámítás</value>
+    <value>Summation</value>
+  </data>
+  <data name="AskForANumber" xml:space="preserve">
+    <value>Please give me a number!</value>
+  </data>
+  <data name="TheResult" xml:space="preserve">
+    <value>The result is: </value>
+  </data>
+  <data name="SorrtedArray" xml:space="preserve">
+    <value>Sorted array</value>
+  </data>
+  <data name="AskForOperator" xml:space="preserve">
+    <value>Please give me the type of the operations!(+, -, *)</value>
+  </data>
+  <data name="UnknownOperator" xml:space="preserve">
+    <value>Unknown operation</value>
   </data>
 </root>

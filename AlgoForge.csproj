@@ -8,9 +8,10 @@
 	</PropertyGroup>
 	
 	<ItemGroup>
-		<Folder Include="AlgoForge.Core\Enums\" />
-		<Folder Include="AlgoForge.Test\" />
-		<Folder Include="AlgoForge.Docs\" />
+		<Folder Include="Algorithms\AdvancedAlgorithms\" />
+		<Folder Include="Algorithms\SortingAlgorithms\" />
+		<Folder Include="Core\Enums\" />
+		<Folder Include="Test\" />
 	</ItemGroup>
 
 </Project>

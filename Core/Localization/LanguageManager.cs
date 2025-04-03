@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Resources;
 
-namespace AlgoForge.AlgoForge.Core.Localization
+namespace AlgoForge.Core.Localization
 {
     internal class LanguageManager
     {
@@ -51,7 +51,7 @@ namespace AlgoForge.AlgoForge.Core.Localization
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Please enter 1 or 2.");
+                    Console.WriteLine("Invalid input. / Rossz válasz.");
                 }
             }
         }
