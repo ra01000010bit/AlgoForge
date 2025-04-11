@@ -132,7 +132,7 @@
   <data name="LinearSearch" xml:space="preserve">
     <value>Linear search</value>
   </data>
-  <data name="MaximumSelection" xml:space="preserve">
+  <data name="RunMaximumSelectionAlgorithm" xml:space="preserve">
     <value>Maximum slection</value>
   </data>
   <data name="ProgramingAlgorithms" xml:space="preserve">
@@ -157,10 +157,7 @@
     <value>Algorithm Menu</value>
   </data>
   <data name="ShowSortAlgorithmsMenu" xml:space="preserve">
-    <value>Sorting</value>
-  </data>
-  <data name="Simple Programing Algorithms" xml:space="preserve">
-    <value>Simple Programing Algorithhms</value>
+    <value>Basic Sorting Algorithms</value>
   </data>
   <data name="SimpleAlgorithms" xml:space="preserve">
     <value>Simple Programing algorithms</value>
@@ -182,5 +179,32 @@
   </data>
   <data name="UnknownOperator" xml:space="preserve">
     <value>Unknown operation</value>
+  </data>
+  <data name="RunCountingAlgorithm" xml:space="preserve">
+    <value>Counting</value>
+  </data>
+  <data name="RunDecisionAlgorithm" xml:space="preserve">
+    <value>Decision</value>
+  </data>
+  <data name="RunLinearSearchAlgorithm" xml:space="preserve">
+    <value>Linear Search</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>Invalid input.</value>
+  </data>
+  <data name="AskForNumbers" xml:space="preserve">
+    <value>Please give me numbers, separated by spaces!</value>
+  </data>
+  <data name="MissingInput" xml:space="preserve">
+    <value>Missing input!</value>
+  </data>
+  <data name="ShowAdvancedAlgorithmsMenu" xml:space="preserve">
+    <value>Advanced Algorithms</value>
+  </data>
+  <data name="DataAccessError" xml:space="preserve">
+    <value>Data Access Error</value>
+  </data>
+  <data name="AlgorithmExecutionError" xml:space="preserve">
+    <value>Algorithm Execution Error</value>
   </data>
 </root>

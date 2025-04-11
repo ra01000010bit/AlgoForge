@@ -1,13 +1,5 @@
-﻿using AlgoForge.Algorithms.BasicAlgorithms;
-using AlgoForge.Core.Localization;
+﻿using AlgoForge.Core.Localization;
 using AlgoForge.Core.Menus;
-using AlgoForge.AlgoForge.Core.Utilities;
-using System.Reflection;
-using System.Text.RegularExpressions;
-using System.Text.Json;
-using System;
-using System.IO;
-using System.Collections.Generic;
 
 namespace AlgoForge.AlgoForge.Main
 {
@@ -15,6 +7,12 @@ namespace AlgoForge.AlgoForge.Main
     {
         static void Main(string[] args)
         {
+            #region ASCII text
+            //Console.SetWindowSize(150, 30);
+            //Console.SetBufferSize(150, 30);
+            //AlgoForgeLogo.DisplayCyberpunkGreeting();
+            #endregion
+            #region JSON stuff
             //string jsonPath = "algorithms.json";
             //string jsonText = File.ReadAllText(jsonPath);
 
@@ -32,10 +30,6 @@ namespace AlgoForge.AlgoForge.Main
             //    }
             //    Console.WriteLine();
             //}
-            #region ASCII text
-            Console.SetWindowSize(150, 30);
-            Console.SetBufferSize(150, 30);
-            AlgoForgeLogo.DisplayCyberpunkGreeting();
             #endregion
             #region Language manager
             LanguageManager.Instance.SelectLanguage();
@@ -44,8 +38,6 @@ namespace AlgoForge.AlgoForge.Main
             MainMenu mainMenu = new MainMenu();
             mainMenu.ShowMenu();
             #endregion
-
-
         }
     }
 }

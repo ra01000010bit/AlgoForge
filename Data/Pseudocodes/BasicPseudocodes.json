@@ -1,0 +1,16 @@
+﻿{
+  "Algorithms": [
+    {
+      "Name": "Sorozatszámítás",
+      "Input": [ "x - T tömb", "n - egész (tömb mérete)" ],
+      "Output": "value - T",
+      "Steps": [
+        "value ← value0",
+        "ciklus i ← 1-től n-ig",
+        "    value ← value ⊕ x[i]",
+        "ciklus vége",
+        "vissza value"
+      ]
+    }
+  ]
+}

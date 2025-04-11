@@ -14,5 +14,15 @@ obj/
 *.sln.docstates
 
 # Logok és ideiglenes fájlok
+Data/Logs/
 *.log
+*.tmp
+*.temp
+*.cache
 
+# Egyéb IDE konfigurációk (pl. Rider)
+.vscode/
+
+# Package manager (npm, yarn) fájlok
+node_modules/
+package-lock.json

@@ -132,8 +132,8 @@
   <data name="LinearSearch" xml:space="preserve">
     <value>Lineáris keresés</value>
   </data>
-  <data name="MaximumSelection" xml:space="preserve">
-    <value>Maxium kiválasztás programozás tétel</value>
+  <data name="RunMaximumSelectionAlgorithm" xml:space="preserve">
+    <value>Maxium kiválasztás</value>
   </data>
   <data name="ProgramingAlgorithms" xml:space="preserve">
     <value>Programozási Algoritmusok</value>
@@ -157,10 +157,7 @@
     <value>Algoritmusok</value>
   </data>
   <data name="ShowSortAlgorithmsMenu" xml:space="preserve">
-    <value>Rendezések</value>
-  </data>
-  <data name="Simple Programing Algorithms" xml:space="preserve">
-    <value>Egyszerű Programozási Algoritmusok</value>
+    <value>Alapvető Rendezési Algoritmusok</value>
   </data>
   <data name="SimpleAlgorithms" xml:space="preserve">
     <value>Egyszerű programozási tételek</value>
@@ -181,6 +178,33 @@
     <value>Kérlek add meg a művelet típusát!(+, -, *)</value>
   </data>
   <data name="UnknownOperator" xml:space="preserve">
-    <value />
+    <value>Ismeretlen művelt</value>
+  </data>
+  <data name="RunCountingAlgorithm" xml:space="preserve">
+    <value>Megszámlálás</value>
+  </data>
+  <data name="RunDecisionAlgorithm" xml:space="preserve">
+    <value>Eldöntés</value>
+  </data>
+  <data name="RunLinearSearchAlgorithm" xml:space="preserve">
+    <value>Lineáris keresés</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>Hibás bemenet.</value>
+  </data>
+  <data name="AskForNumbers" xml:space="preserve">
+    <value>Kérlek adj meg számokat, vesszővel elválasztva!</value>
+  </data>
+  <data name="MissingInput" xml:space="preserve">
+    <value>Hiányzó bemenet!</value>
+  </data>
+  <data name="ShowAdvancedAlgorithmsMenu" xml:space="preserve">
+    <value>Összetett Programozási Tételek</value>
+  </data>
+  <data name="DataAccessError" xml:space="preserve">
+    <value>Hibás adat elérés</value>
+  </data>
+  <data name="AlgorithmExecutionError" xml:space="preserve">
+    <value>Sikertelen Algoritmus Futatás</value>
   </data>
 </root>

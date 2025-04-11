@@ -8,10 +8,7 @@
 	</PropertyGroup>
 	
 	<ItemGroup>
-		<Folder Include="Algorithms\AdvancedAlgorithms\" />
-		<Folder Include="Algorithms\SortingAlgorithms\" />
-		<Folder Include="Core\Enums\" />
-		<Folder Include="Test\" />
+		<Folder Include="Data\Logs\" />
 	</ItemGroup>
 
 </Project>
